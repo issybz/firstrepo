@@ -1,0 +1,48 @@
+---
+title: "FirstGetHub"
+author: "Issy Belzil"
+date: '2017-09-14'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Some commands to use to get a high level picture of the data include the following.
+* dim() (dimensions of the dataset)
+* nrow() (number of rows)
+* ncol() (number of columns)
+* str() (information about variable types)
+
+#Executing the dim command 
+
+```{r}
+dim(mtcars)
+```
+
+#ncol
+
+```{r}
+ncol(mtcars)
+```
+
+#nrow
+
+```{r}
+nrow(mtcars)
+```
+
+#str
+
+```{r echo=FALSE}
+str(mtcars)
+```
+
+# names of variables 
+
+```{r}
+names(mtcars)
+```
+
+
